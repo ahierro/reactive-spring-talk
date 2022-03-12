@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/1-blocking-greeting-service/pom.xml" />
+        <option value="$PROJECT_DIR$/2-reactive-greeting-service/pom.xml" />
+        <option value="$PROJECT_DIR$/3-blocking-consume-and-persist-service/pom.xml" />
+        <option value="$PROJECT_DIR$/4-reactive-consume-and-persist-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK" />
+</project>

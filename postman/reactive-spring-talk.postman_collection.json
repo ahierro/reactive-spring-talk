@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "6137f722-abe1-4398-9bea-e1d451ae23c0",
+		"name": "reactive-spring-talk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consume-and-persist-service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/v1/greet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"greet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "greeting-service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/hello/sleep",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"hello",
+						"sleep"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

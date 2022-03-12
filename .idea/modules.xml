@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-blocking-greeting-service/1-blocking-greeting-service.iml" filepath="$PROJECT_DIR$/1-blocking-greeting-service/1-blocking-greeting-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-reactive-greeting-service/2-reactive-greeting-service.iml" filepath="$PROJECT_DIR$/2-reactive-greeting-service/2-reactive-greeting-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-blocking-consume-and-persist-service/3-blocking-consume-and-persist-service.iml" filepath="$PROJECT_DIR$/3-blocking-consume-and-persist-service/3-blocking-consume-and-persist-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-reactive-consume-and-persist-service/4-reactive-consume-and-persist-service.iml" filepath="$PROJECT_DIR$/4-reactive-consume-and-persist-service/4-reactive-consume-and-persist-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/reactive-spring-talk.iml" filepath="$PROJECT_DIR$/.idea/reactive-spring-talk.iml" />
+    </modules>
+  </component>
+</project>
