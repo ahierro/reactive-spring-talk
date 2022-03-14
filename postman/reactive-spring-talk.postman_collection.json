@@ -26,12 +26,32 @@
 			"response": []
 		},
 		{
+			"name": "consume-and-persist-service Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/v1/read",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"v1",
+						"read"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "greeting-service",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/v1/hello/sleep",
+					"raw": "http://localhost:8080/v1/hello/sleep?delay=1000",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -41,6 +61,12 @@
 						"v1",
 						"hello",
 						"sleep"
+					],
+					"query": [
+						{
+							"key": "delay",
+							"value": "1000"
+						}
 					]
 				}
 			},
